@@ -15,7 +15,7 @@ To eliminate the effect of sun and covert radiance to reflectance, we need to ca
 
 To do so, we need a solar irradiance spectrum. Then, we can convert radiance to reflectance by the following formula:
 
-- (pi * *L* * square(*d*) * cos(*theta*))/*ESUN*
+- (pi * *L* * square(*d*) * cos(*theta*)) / *ESUN*
 
 where *L* is radiance, *d* is the local Earth-Sun distance in astronomical units, *theta* is solar zenith angle in degrees, and *ESUN* is the calculated mean solar exoatmospheric irradiances.
 
