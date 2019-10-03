@@ -12,7 +12,6 @@ The level-1 data are raw data with method for radiometric calibration, which can
 TOA radiance is an observation that reflects both energy density of the ground target and the sun. 
 
 To eliminate the effect of sun and covert radiance to reflectance, we need to calculate how strong the sum is on top of atmosphere. 
-
 To do so, we need a solar irradiance spectrum. Then, we can convert radiance to reflectance by the following formula:
 
 - (pi * *L* * square(*d*) * cos(*theta*)) / *ESUN*
