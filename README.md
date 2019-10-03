@@ -18,5 +18,5 @@ To do so, we need a solar irradiance spectrum. Then, we can convert radiance to 
 
 where *L* is radiance, *d* is the local Earth-Sun distance in astronomical units, *theta* is solar zenith angle in degrees, and *ESUN* is the calculated mean solar exoatmospheric irradiances.
 
-Various solar spectrum are available. In my implementation, the 1985 Wehrli Standard Extraterrestrial Solar Irradiance Spectrum is chosen because it is the first spectrum that came to my eyes. A set ot the *ESUN* values of Zhuhai-1 hyperspectral sensors is provided here as *ESUN_obt.xlsx*
+Various solar spectrum are available. In my implementation, the 1985 Wehrli Standard Extraterrestrial Solar Irradiance Spectrum is chosen because it is the first spectrum that came to my eyes. A set ot the *ESUN* values of Zhuhai-1 hyperspectral sensors is provided here as *esun_obt.xlsx*
 
