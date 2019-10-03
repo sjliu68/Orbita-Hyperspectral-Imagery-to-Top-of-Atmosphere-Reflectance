@@ -1,12 +1,22 @@
 # Overview
 Convert Orbita Level-1 Zhuhai-1 satellite data to TOA reflectance
 
-欧比特珠海一号高光谱数据转表观反射率
+欧比特 珠海一号 高光谱数据 Level-1原始数据 转 表观/行星反射率
 
 **Note: the output file is TOA reflectance*10000**
 
 Such formmating is inline with Landsat-8 and Sentinel-2 to save space 
 
+
+## Usage
+- unzip all the Zhuhai-1 hyperspectral data to one directory (path)
+- change all three arguments in the script
+
+
+### three arguments
+- path: the one directory saving all the hyperspectral data
+- esunfile: obt_esun.xlsx file
+- outputpath: output data location
 
 
 ## Motivation and Goal
