@@ -7,7 +7,7 @@ Convert Orbita Level-1 Zhuhai-1 satellite data to TOA reflectance
 
 Such formmating is inline with Landsat-8 and Sentinel-2 to save space 
 
-Feel free to contact me for further information: liushengjie0756@gmail.com
+Feel free to contact me for further information: liushengjie0756 [AT] gmail.com
 
 
 ## Usage
