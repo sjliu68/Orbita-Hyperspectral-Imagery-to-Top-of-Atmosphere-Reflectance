@@ -7,6 +7,8 @@ Convert Orbita Level-1 Zhuhai-1 satellite data to TOA reflectance
 
 Such formmating is inline with Landsat-8 and Sentinel-2 to save space 
 
+Feel free to contact me for further information: liushengjie0756@gmail.com
+
 
 ## Usage
 - unzip all the Zhuhai-1 hyperspectral data to one directory (path)
@@ -40,4 +42,12 @@ where *L* is radiance, *d* is the local Earth-Sun distance in astronomical units
 - In my implementation, the 1985 Wehrli Standard Extraterrestrial Solar Irradiance Spectrum is chosen because it is the first spectrum that came to my eyes. 
 
 - A set ot the *ESUN* values of Zhuhai-1 hyperspectral sensors is provided here as *esun_obt.xlsx*
+
+
+## To do
+- [ ] choose output bands
+- [ ] functionize
+
+
+
 
