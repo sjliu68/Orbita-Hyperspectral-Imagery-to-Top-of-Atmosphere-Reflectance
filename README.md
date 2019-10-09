@@ -9,18 +9,6 @@ Such formmating is inline with Landsat-8 and Sentinel-2 to save space
 
 Feel free to contact me for further information: liushengjie0756 [AT] gmail.com
 
-
-## Usage
-- unzip all the Zhuhai-1 hyperspectral data to one directory (path)
-- change all three arguments in the script
-
-
-### three arguments
-- path: the one directory saving all the hyperspectral data
-- esunfile: obt_esun.xlsx file
-- outputpath: output data location
-
-
 ## Motivation and Goal
 
 - The Zhuhai-1 hyperspectral satellite imagery did not provide offical TOA reflectance data
@@ -42,6 +30,20 @@ where *L* is radiance, *d* is the local Earth-Sun distance in astronomical units
 - In my implementation, the 1985 Wehrli Standard Extraterrestrial Solar Irradiance Spectrum is chosen because it is the first spectrum that came to my eyes. 
 
 - A set ot the *ESUN* values of Zhuhai-1 hyperspectral sensors is provided here as *esun_obt.xlsx*
+
+
+## Usage
+- unzip all the Zhuhai-1 hyperspectral data to one directory (path)
+- change all three arguments in the script
+
+
+### three arguments
+- path: the one directory saving all the hyperspectral data
+- esunfile: obt_esun.xlsx file
+- outputpath: output data location
+
+
+
 
 
 ## To do
