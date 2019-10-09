@@ -24,7 +24,7 @@ where *L* is radiance, *d* is the local Earth-Sun distance in astronomical units
 
 
 
-## The ESUN file of Zhuhai-1 Hyperspectral sensors 
+## The ESUN file of Zhuhai-1 Hyperspectral Sensors 
 - Various solar spectrum are available. 
 
 - In my implementation, the 1985 Wehrli Standard Extraterrestrial Solar Irradiance Spectrum is chosen because it is the first spectrum that came to my eyes. 
